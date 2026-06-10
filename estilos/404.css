@@ -6,9 +6,10 @@
 
     }
 
-    main{
-        flex:auto
-    }
+main{
+  flex: auto;
+  text-align: center;
+}
 
     header {
 
@@ -53,21 +54,32 @@
     }
     
     .titulo{
-
-     display: flex;
-     margin-top: 20%;
-     margin-bottom: 0px;
+   margin-top: 5%;
+   margin-bottom: 0px;
   
 
-      justify-content: center;
+  ;
 }
 
 .boton{
 
-  display: flex;
-      justify-content: center;
+  
+     display: inline-block ;
+    background-color: #FF6A00;
+    color: white;
+    padding: 15px 30px;
+    margin-bottom: 30px;
   
 
 }
-
-   
+.boton:hover{
+  color: #ffffff;
+  background-color: #1F51FF;
+     transform:scale(1.10);
+     transition: 0.5%;
+}
+img{
+  width: 50%;
+  height: auto;
+  margin-top: -150px;
+}   
