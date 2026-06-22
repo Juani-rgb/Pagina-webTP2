@@ -1,21 +1,23 @@
  body {
-      background-color: #000000;
-      min-height: 100vh;
-      display: flex;
-      flex-direction: column;
-       background-image: url('../Imagenes/imagen404.png');
-  background-size: cover;
-  background-position: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-image: url('../Imagenes/imagen404.png');
+  background-size: contain;
+  background-position: center top;
   background-repeat: no-repeat;
-
-    }
+  background-color: #000000;
+}
+    
 
 main{
-  flex: auto;
+ flex: auto;
   text-align: center;
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
+  min-height: 100vh;
 }
 
     header {
