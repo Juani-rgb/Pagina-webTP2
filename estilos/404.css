@@ -18,7 +18,7 @@ main{
   align-items: center;
   justify-content: flex-end;
   padding-bottom: 20px;
-  min-height: 85vh;
+  min-height: 100%;
 }
 
     header {
