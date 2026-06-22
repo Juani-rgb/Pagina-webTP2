@@ -3,6 +3,10 @@
       min-height: 100vh;
       display: flex;
       flex-direction: column;
+       background-image: url('../Imagenes/imagen404.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 
     }
 
@@ -74,10 +78,4 @@ main{
   background-color: #1F51FF;
      transform:scale(1.10);
      transition: 0.5%;
-}
-img {
-  width: 35%;
-  min-width: 200px;
-  height: auto;
-  margin-top: 10px;
 }
