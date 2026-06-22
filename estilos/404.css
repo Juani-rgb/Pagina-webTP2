@@ -9,6 +9,9 @@
 main{
   flex: auto;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
     header {
@@ -78,7 +81,9 @@ main{
      transform:scale(1.10);
      transition: 0.5%;
 }
-img{
-  width: 25%;
+img {
+  width: 35%;
+  min-width: 200px;
+  height: auto;
   margin-top: 10px;
-}   
+}
