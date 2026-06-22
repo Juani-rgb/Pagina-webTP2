@@ -78,8 +78,3 @@ main{
      transform:scale(1.10);
      transition: 0.5%;
 }
-img{
-  width: 30%;
-  height: auto;
-  margin-top: 10px;
-}   
