@@ -1,14 +1,11 @@
  body {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  background-image: url('../Imagenes/imagen404.png');
-  background-size: contain;
-  background-position: center top;
-  background-repeat: no-repeat;
-  background-color: #000000;
-}
-    
+      background-color: #000000;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      
+
+    }
 
 main{
   flex: auto;
@@ -16,8 +13,6 @@ main{
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: flex-end;
-  height: 100%;
 }
 
     header {
@@ -37,7 +32,7 @@ main{
 
        }
 
-  h1{
+       h1{
     color: #ffffff;
    }
      a {
@@ -80,4 +75,10 @@ main{
   background-color: #1F51FF;
      transform:scale(1.10);
      transition: 0.5%;
+}
+img {
+  width: 35%;
+  min-width: 200px;
+  height: auto;
+  margin-top: 40px;
 }
