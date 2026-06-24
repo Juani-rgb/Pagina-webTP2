@@ -36,7 +36,7 @@ main{
     color: #ffffff;
    }
      a {
-      color: #1F51FF;
+      color: #30A8F9;
       text-decoration: none;
       
      
@@ -63,21 +63,24 @@ main{
 
   
      display: inline-block ;
-    background-color: #FF6A00;
-    color: white;
+    background-color: #7C4DFF;
+    color: #ffffff;
     padding: 15px 30px;
     margin-bottom: 30px;
+    font-weight: bold;
+    margin-top: 0;
   
 
 }
 .boton:hover{
   color: #ffffff;
-  background-color: #1F51FF;
+  background-color: #d21fff;
      transform:scale(1.10);
-     transition: 0.5%;
+     transition: 0.3s;
 }
 img {
-    width: 30%;
-    max-width: 350px;
+  margin-top: 5%;
+  margin-bottom: 0px;
+    width: 35%;
     height: auto;   
 }
