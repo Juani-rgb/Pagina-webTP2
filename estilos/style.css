@@ -24,7 +24,10 @@ section, article, aside{
 
 .actor{
  
+    width: 200px;
+    height: auto;
     border-radius: 20px;
+    
 
 }
 a{
@@ -56,6 +59,9 @@ h2, h3, h4, h5{
   font-weight: 400;
   font-style: normal;
 }
+h2{
+    text-align: center;
+}
 
 p, nav, ul, li{
   font-family: "Roboto", sans-serif;
@@ -65,3 +71,33 @@ p, nav, ul, li{
   font-variation-settings:
     "wdth" 100;
 }
+
+
+.contenedor-actores{
+
+
+    display: flex ;
+    align-items: center;
+    gap: 20px;
+
+
+
+}
+.tarjeta-actor{
+
+    margin-bottom: 40px;
+
+}
+
+
+
+  .datos {
+      color:#C8D3DC;
+      flex-direction: column; 
+      gap: 10px;
+     
+
+
+
+    }
+   
