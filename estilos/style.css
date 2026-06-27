@@ -100,4 +100,10 @@ p, nav, ul, li{
 
 
     }
+    footer{
+        h2,h3{
+            color: #AAB4BE;
+            font-size: 1rem;
+        }
+    }
    
