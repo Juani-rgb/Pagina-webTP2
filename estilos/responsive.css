@@ -8,7 +8,8 @@
     }
 
     h1{
-        font-size: 2.3rem;
+        font-size: 1.9rem;
+        text-align: center;
     }
 
     h2{
@@ -64,21 +65,56 @@
     display: flex;
     flex-direction: column ;
     justify-content: center;
-    gap: 25px;
+    gap: 20px;
     list-style: none;
 }
 
 footer ul{
     display: flex;
     flex-direction: column;
+ 
     gap: 10px;
     list-style: none;
 }
 
+aside{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 20px;
+}
+
+form{
+    width: 90%;
+    margin: 0 auto;
+}
+
+label{
+    font-size: 1.2rem;
+}
+
+input,select,textarea{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    font-size: 1rem;
+}
+
+button{
+    width: 100%;
+    padding: 15px;
+    font-size: 1.1rem;
+}
+
+#imgform{
+    width: 90%;
+    height: auto;
 
 }
 
+}
 
+    
 
 @media screen and (min-width:678px) and (max-width:1024px){
 
