@@ -77,12 +77,22 @@ footer ul{
     list-style: none;
 }
 
-aside{
+aside h3{
     display: flex;
     flex-direction: column;
     text-align: center;
-    margin-top: 20px;
+   
 }
+
+.datos{
+
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+}
+
+
 
 form{
     width: 90%;
@@ -111,6 +121,32 @@ button{
     height: auto;
 
 }
+
+.hamburguesa{
+    display: block;
+    font-size: 35px;
+    color: white;
+    cursor: pointer;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+nav{
+    display: none;
+}
+
+#menu:checked ~ nav{
+    display: block !important;
+}
+
+.cabecera-celu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+}
+
 
 }
 
