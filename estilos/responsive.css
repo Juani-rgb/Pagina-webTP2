@@ -158,11 +158,13 @@ nav{
 }
 
 .error404{
-    width: 100%;
-    border: 5px solid red;
+    width: 95%;
 
 }
 
+footer{
+    margin-top: 30px;
+}
 
 }
 
@@ -246,24 +248,27 @@ button{
     height: auto;
 
 }
+ .contenedor-actores{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:30px;
+}
 
-     .contenedor-actores{
-        display:flex;
-        flex-wrap:wrap;
-        justify-content:center;
-        gap:30px;
-    }
-
-    .tarjeta-actor{
-        width:40%;
-    }
+.tarjeta-actor{
+    width:40%;
+}
 
 .error404{
 
-    width: 70%;
-    height: auto;
+    width: 95%;
 }
 
+
+footer{
+
+    margin-top: 30px;
+}
     
 
 }
