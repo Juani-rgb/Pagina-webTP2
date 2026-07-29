@@ -86,10 +86,16 @@ aside h3{
 
 .datos{
 
-    display: flex;
-    flex-direction: column;
-    text-align: center;
+    display: block;
+    text-align: left;
+    width: 90%;
+    margin: 0 auto;
+    padding: 0;
 
+}
+
+.datos li{
+    margin-bottom: 15px;
 }
 
 
@@ -129,6 +135,7 @@ button{
     cursor: pointer;
     text-align: center;
     margin-bottom: 15px;
+    order: -1;
 }
 
 nav{
@@ -141,10 +148,12 @@ nav{
 
 .cabecera-celu{
     display: flex;
-    justify-content: space-between;
+    justify-content:flex-start;
     align-items: center;
     width: 100%;
     padding: 10px;
+    gap: 20px   ;
+    
 }
 
 
